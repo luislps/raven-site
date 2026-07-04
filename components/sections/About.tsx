@@ -7,7 +7,7 @@ export function About() {
       <div className="container-content grid items-center gap-10 lg:grid-cols-[auto_1fr]">
         <div className="mx-auto flex h-40 w-40 items-center justify-center rounded-full bg-navy p-6 lg:h-48 lg:w-48">
           <Image
-            src="/brand/icone.png"
+            src="/brand/icone-branco.png"
             alt=""
             width={140}
             height={140}
