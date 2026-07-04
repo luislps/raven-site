@@ -1,0 +1,20 @@
+export const site = {
+  name: "Raven Contabilidade",
+  legalName: "Raven Serviços Contábeis Ltda.",
+  cnpj: "60.448.886/0001-62",
+  crc: "CRC 2SP051141/O-2",
+  email: "contato@ravencontabilidade.com.br",
+  phoneDisplay: "(19) 98611-8324",
+  phoneE164: "+5519986118324",
+  whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "5519986118324",
+  address: {
+    street: "Rua Comendador Torlogo Dauntre, nº 74, Sala 1207",
+    neighborhood: "Cambuí",
+    city: "Campinas",
+    state: "SP",
+    zip: "13025-270",
+    full: "Rua Comendador Torlogo Dauntre, nº 74, Sala 1207, Cambuí, CEP 13025-270, Campinas/SP",
+  },
+  instagram: "https://www.instagram.com/ravencontabilidade",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://ravencontabilidade.com.br",
+} as const;
